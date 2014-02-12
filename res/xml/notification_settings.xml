@@ -55,6 +55,13 @@
                 android:persistent = "false"
                 android:defaultValue = "true" />
 
+        <!-- More Volume Steps -->
+        <PreferenceScreen
+                android:key="volume_steps"
+                android:fragment="com.android.settings.carbon.VolumeSteps"
+                android:title="@string/volume_steps_title" />
+    </PreferenceCategory>
+
         <!-- Also vibrate for calls -->
         <SwitchPreference
                 android:key="vibrate_when_ringing"
